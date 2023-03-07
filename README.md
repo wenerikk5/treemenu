@@ -21,10 +21,10 @@ python manage.py createsuperuser
 ```
 
 ## Применение
-Template tag вставляется на необходимую страницу командой:
+Template tag вставляется в необходимую страницу командой:
 ```bash
 {% draw_menu "menu_name" %}
 ```
 
 ## Превью
-<img src="https://github.com/wenerikk5/treemenu/blob/eb57ce8936ed0c3b0c915398028dc899b4345a70/info/preview.png" alt="img" width="600" height='300'>
+<img src="https://github.com/wenerikk5/treemenu/blob/eb57ce8936ed0c3b0c915398028dc899b4345a70/info/preview.png" alt="img" width="600" height='420'>
