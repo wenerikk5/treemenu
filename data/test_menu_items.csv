@@ -1,0 +1,22 @@
+id,name,named_url,parent_id,menu_id,lft,rht,level
+1,Root,root,,1,1,42,0
+2,News,news,1,1,2,13,1
+3,Recent,recent,2,1,3,4,2
+4,Archive,archive,2,1,5,12,2
+5,Package 1,package-1,4,1,6,9,3
+21,Package 1,subpackage-1,5,1,7,8,4
+6,Package 2,package-2,4,1,10,11,3
+7,Dev,dev,1,1,14,19,1
+8,Monitoring,monitoring,7,1,15,18,2
+9,Servers,servers,8,1,16,17,3
+10,Projects,projects,1,1,20,35,1
+11,Current,current,10,1,21,34,2
+12,Project 1,project-1,11,1,22,27,3
+13,Subitem 1-1,subitem-1-1,12,1,23,24,4
+14,Subitem 1-2,subitem-1-2,12,1,25,26,4
+15,Project 2,project-2,11,1,28,29,3
+16,Project 3,project-3,11,1,30,33,3
+17,Subitem 3-1,subitem-3-1,16,1,31,32,4
+18,Contacts,contacts,1,1,36,41,1
+19,Info,info,18,1,37,38,2
+20,Location,location,18,1,39,40,2

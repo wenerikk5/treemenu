@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load draw_menu %}
+
+
+{% block content %}
+    <div class="container">
+        <br>
+        {% draw_menu 'menu_1' %}
+        <br>
+        <br>
+        <br>
+        <h3>{{ name }}</h3>
+        <h5>Page Url: {{ request.get_full_path }}</h5>
+        <br>
+    </div>
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'admin/change_list.html' %}
+
+{% block object-tools %}
+    <div>
+        <form action="UpdateKeys/" method="POST">
+            {% csrf_token %}
+                <button type="submit" style="background-color: yellow;">Update Keys</button>
+        </form>
+    </div>
+    <br />
+    {{ block.super }}
+{% endblock %}

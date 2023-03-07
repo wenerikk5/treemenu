@@ -1,0 +1,15 @@
+{% for node in node_list %}
+    <li>
+        {% if context.request.get_full_path == node.get_url %}
+            <span class="badge badge-info">{{ node.name }}</span>
+        {% else %}
+            <a href="{{ node.get_url }}" class="badge badge-warning">{{ node.name }}</a>
+        {% endif %}
+        
+        {% if node.get_children|length %}
+            <ul>
+                {% include "menu.html" with node_list=node.get_children %}
+            </ul>
+        {% endif %}
+    </li>
+{% endfor %}
